@@ -1,16 +1,16 @@
-Burger-Builder
+### Burger-Builder
 
-To have a preview of this webapp visit https://aashayphirke.herokuapp.com/portfolios
+**To have a preview of this webapp visit https://aashayphirke.herokuapp.com/portfolios**
 
-Tools used: React firebase
+## Tools used: React firebase
 
-What I Learned
+## What I Learned
 
-Project for understanding and exploring React Redux
+**Project for understanding and exploring React Redux**
 
-Used React Hooks added form validations
+**Used React Hooks added form validations**
 
-Also explored Redux saga and implemented it
+**Also explored Redux saga and implemented it**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
