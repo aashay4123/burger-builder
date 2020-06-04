@@ -1,10 +1,10 @@
-### Burger-Builder
+## Burger-Builder
 
 **To have a preview of this webapp visit https://aashayphirke.herokuapp.com/portfolios**
 
-## Tools used: React firebase
+### Tools used: React firebase
 
-## What I Learned
+### What I Learned
 
 **Project for understanding and exploring React Redux**
 
