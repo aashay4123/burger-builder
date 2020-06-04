@@ -1,3 +1,13 @@
+Tools used: React firebase
+
+What I Learned
+
+Project for understanding and exploring React Redux
+
+Used React Hooks added form validations
+
+Also explored Redux saga and implemented it
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
