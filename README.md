@@ -8,6 +8,8 @@
 
 **Project for understanding and exploring React Redux**
 
+**Edited webpack configuration after ejecting create-react-app**
+
 **Used React Hooks added form validations**
 
 **Also explored Redux saga and implemented it**
