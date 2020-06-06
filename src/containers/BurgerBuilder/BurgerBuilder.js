@@ -12,8 +12,10 @@ import axios from "../../axios-orders";
 
 export const BurgerBuilder = (props) => {
   const [purchasing, setpurchasing] = useState(false);
+  const { oninitIngs } = props;
   useEffect(() => {
-    props.oninitIngs();
+    oninitIngs();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const updatePurchaseState = (ingredients) => {

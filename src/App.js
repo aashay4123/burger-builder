@@ -17,8 +17,11 @@ const Auth = lazy(() => {
 });
 
 const App = (props) => {
+  const { onTryAutoAuth } = props;
+
   useEffect(() => {
-    props.onTryAutoAuth();
+    onTryAutoAuth();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   let routes = (

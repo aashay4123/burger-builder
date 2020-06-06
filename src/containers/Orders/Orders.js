@@ -7,7 +7,7 @@ import * as actions from "../../store/action";
 import Spinner from "../../components/UI/Spinner/Spinner";
 
 const Orders = (props) => {
-  useEffect(() => {
+  useEffect((props) => {
     props.onFetch(props.token, props.userId);
   }, []);
   let orders = <Spinner />;

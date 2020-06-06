@@ -40,11 +40,12 @@ const Auth = (props) => {
     },
   });
   const [isSignup, setisSignup] = useState(true);
-
+  const { authRedirectPath, onSetAuthRedirectPath, buildingBurger } = props;
   useEffect(() => {
-    if (!props.buildingBurger && props.authRedirectPath !== "/") {
-      props.onSetAuthRedirectPath();
+    if (!buildingBurger && authRedirectPath !== "/") {
+      onSetAuthRedirectPath();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const checkValidity = (value, rules) => {
